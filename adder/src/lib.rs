@@ -21,6 +21,10 @@ impl Guess {
     }
 }
 
+pub fn add_two(val: i32) -> i32{
+    return val + 2;
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
